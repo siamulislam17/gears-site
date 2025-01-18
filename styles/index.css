@@ -217,7 +217,7 @@ footer>h4{
     /*all products*/
     .all_products{
         grid-template-columns: repeat(1,1fr);
-        margin-left: 10px;
+        margin-left: 30px;
         gap: 10px;
     }
     .product_card{
