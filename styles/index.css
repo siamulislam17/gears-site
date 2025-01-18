@@ -72,8 +72,10 @@ button:hover{
     gap: 4%;
 }
 .product_card{
+    
     padding: 10px;
     box-shadow: 0px 0px 40px  0px rgba(0, 0, 0, 0.15);
+    
 
 
 }
@@ -238,4 +240,109 @@ footer>h4{
         margin: 6px 32%;
 
     }
+}
+@media screen and (min-width:361px ) and (max-width:576px) {
+    h1{
+        font-size: .5rem;
+    }
+    .nav_bar{
+      
+        padding: 4px 2px;
+       
+    }
+    .nav_bar>h1{
+        margin-right: 0px;
+    }
+    ul{
+        font-size: 8px;
+        gap: 2px;
+        font-size: 8px;
+        margin-left: -12px;
+        visibility: hidden
+        
+    }
+    .cart{
+        visibility: visible;
+        position: relative;
+        right: 20px;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 5px 3px;
+        justify-content: center;
+        background-position: center top;
+        background-size: 90%;
+        
+    }
+    .banner_div{
+        display: flex;
+        
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .banner h1{
+        font-size: .8rem;
+    }
+    .banner p{
+        font-size: 7px;
+        width: 60%;
+        font-weight: 600;
+        margin: 2px auto;
+    }
+    .banner_cam{
+        width: 15rem;
+        margin: 5px auto;
+    }
+    .preebok-btn{
+        width: 8rem;
+        height: 1.5rem;
+        font-size:10px;
+        padding: 3px 0px;
+        margin: 6px auto;
+
+    }
+    /*e-com*/
+    .e_com{
+        margin: 9% 15%;
+        display: grid;
+        grid-template-columns: repeat(4,51px);
+      
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border: none;
+
+    }
+    .e_com img{
+        width: 2rem;
+    }
+    /*all products*/
+    .all_products{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 35px;
+        gap: 10px;
+    }
+    .product_card{
+        font-size: .7rem;
+        gap:3px;
+    }
+    .product_card_h2{
+        font-size: .7rem;
+        padding-top: -7px;
+       
+    }
+    .fretures_product{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .footer_ul{
+        visibility: visible;
+        margin: 6px 32%;
+
+    }
+    
 }
